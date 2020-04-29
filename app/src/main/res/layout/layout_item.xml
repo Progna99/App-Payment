@@ -17,8 +17,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="15sp"
             android:text="Oops no data found"
-            android:textColor="#070707" />
+            android:textColor="#070707"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@id/text2"
@@ -26,26 +28,31 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/text1"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
             android:text="Please add"
-            android:textColor="#0C0C0C" />
+            android:textColor="#0C0C0C"
+            android:textSize="18sp" />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="468dp"
             android:layout_below="@id/text1"
+            android:layout_marginTop="116dp"
             app:srcCompat="@drawable/finakya_oldman" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="63dp"
+            android:layout_height="60dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="41dp"
-            android:background="@android:color/holo_purple"
-            android:text="+" />
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="115dp"
+            android:background="@drawable/custombutton"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
 
 
     </RelativeLayout>

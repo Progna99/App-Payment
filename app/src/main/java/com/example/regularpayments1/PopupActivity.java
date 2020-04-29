@@ -14,11 +14,18 @@ public class PopupActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.popup);
+        Button done=(Button)findViewById(R.id.button3);
         Button cncl = (Button)findViewById(R.id.button2);
         cncl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
               openactivity();
+            }
+        });
+        done.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openactivity();
             }
         });
     }
